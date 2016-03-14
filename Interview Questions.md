@@ -5,11 +5,11 @@ Https makes sure that it is a secure connection by encrypting the signal among t
 
 ## What is the difference between http get and post requests
 
-Http GET requests are just retrieving data by passing parameters into the URL in form of key value pairs. and rendering it to the browser, while POST requests submits data to be processed in the body of the request through an html form.
+Http GET requests are just retrieving data by passing parameters into the URL in form of key value pairs and rendering it to the browser, while POST requests submits data to be processed in the body of the request through an html form.
 
 ## What is the difference between HTTP 2xx status codes and 4xx status codes?
 
-The HTTP 2xx status codes mean that the request as successful, the 4xx codes mean that the server was not able to retrieve the page
+The HTTP 2xx status codes mean that the request as successful, the 4xx codes mean that the server was not able to retrieve the page.
 
 ## What is AJAX (conceptually, what does it do)? Describe a situation where it is useful.
 
@@ -22,32 +22,28 @@ Responsive Design is a design for an application that consider the different for
 
 ## What is the difference between these 3 CSS rules?
 
-`div{background:#fff}` this will change the background color of every div in the app
-`#div{background:#fff}` this will change the background color of the element with the id of "div"
+`div{background:#fff}` this will change the background color of every div in the app  
+`#div{background:#fff}` this will change the background color of the element with the id of "div"  
 `.div{background:#fff}` this will change the background color of all the elements that have a class "div"
 
 ## What is the difference between these 2 uses of the `<script>` tag?
 
-`<script src=”http://example.com/whatever.js”></script>`
+`<script src=”http://example.com/whatever.js”></script>`  
 this first script uploads a javascript document called whatever
 
-`<script>var whatever = true</script>`
+`<script>var whatever = true</script>`  
 this script executes the javascript directly in the template
 
 ## What is the difference between these two javascript snippets?
 
-```var x = function() {
+`var x = function() {
 return 1+1;
-}();
-```
-
+}();`  
 this snippet assigns to the variable x the result of the function
 
-```var y = function() {
+`var y = function() {
 return 1+1;
-};
-```
-
+};`  
 this snippet assigns to the variable y the function itself
 
 
@@ -79,4 +75,4 @@ Typically the information collected by web beacons are:  the IP address of your 
 
 If you include an external script in the <head> section, it is downloaded and executed before the page is shown, so you are sure that if a user saw the page they got tracked. For <img> tags there is no such guarantee, as the user might navigate away before the browser launches the load request for that image. On the other hand the image tracking will work also if javascript is disabled on the user's browser.
 
-With the script tag you can execute some javascript to collect additional information for example the page the hit came from, time spent on the page
+With the script tag you can execute some javascript to collect additional information for example the page the hit came from, time spent on the page, etc.
